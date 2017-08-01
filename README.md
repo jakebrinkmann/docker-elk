@@ -1,15 +1,10 @@
 
-Logstash provides the ability to parse NGINX server logs. 
+**[Logstash](https://www.elastic.co/products/logstash)** provides the ability to parse NGINX server logs into key/value pairs
 
 * [Logstash](https://www.elastic.co/guide/en/logstash/current/docker.html)
   * [Filebeats](https://www.elastic.co/guide/en/logstash/current/plugins-inputs-beats.html)
 * [Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html)
 * [Kibana](https://www.elastic.co/guide/en/kibana/current/docker.html)
-
-## Dependencies
-
-* Docker 1.13
-* Docker Compose 1.10
 
 ## Startup
 
