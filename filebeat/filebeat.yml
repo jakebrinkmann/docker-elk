@@ -1,0 +1,8 @@
+filebeat.prospectors:
+- input_type: log
+  paths:
+    - ./logfile.log
+  ## MY CUSTOM WEB LOGS  ##
+  tags: [ "myweblogs" ]
+output.logstash:
+  hosts: ["lg:5044"]
