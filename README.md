@@ -1,8 +1,5 @@
-# Leaf-Nosed-Snake-LogParse
 
-**PROVISIONAL SOFTWARE DISCLAIMER**: This software is preliminary and is subject to revision.
-
-Codename leaf-nosed-snake provides the ability to parse NGINX server logs. 
+Logstash provides the ability to parse NGINX server logs. 
 
 * [Logstash](https://www.elastic.co/guide/en/logstash/current/docker.html)
   * [Filebeats](https://www.elastic.co/guide/en/logstash/current/plugins-inputs-beats.html)
@@ -20,7 +17,6 @@ Codename leaf-nosed-snake provides the ability to parse NGINX server logs.
 Startup the multi-container architecture using:
 
 ```bash
-cd leaf-nosed-snake-logparse
 docker-compose up -d [--build]
 ```
 
@@ -53,17 +49,4 @@ then, navigate to [Kibana Dashboard](http://localhost:5601/app/kibana)
 * [Grok Patterns](https://github.com/elastic/logstash/blob/v1.4.2/patterns/grok-patterns)
 * [Grok matching tool](http://grokconstructor.appspot.com/do/match)
 * [Elastic Search API](https://www.elastic.co/guide/en/elasticsearch/reference/1.4/search.html)
-
-## Additional
-
-<details>
-<summary>[optional] Shorten a log:</summary>
-
-Shorten a log to only the first 50 lines (inplace)
-
-```bash
-sed -i '51,$ d' example_log
-```
-
-</details>
 
